@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  total: 1
+  date_commande: 2020-03-08 17:55:51
+  date_livraison: 2020-03-08 17:55:51
+  etat_livraison: false
+  code: MyString
+  client: one
+
+two:
+  total: 1
+  date_commande: 2020-03-08 17:55:51
+  date_livraison: 2020-03-08 17:55:51
+  etat_livraison: false
+  code: MyString
+  client: two

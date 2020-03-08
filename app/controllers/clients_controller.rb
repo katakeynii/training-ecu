@@ -17,6 +17,10 @@ class ClientsController < ApplicationController
     # end
   end
 
+  def delete_all
+    Client.delete_all
+    redirect_to clients_path, notice: 'All customers are now deleted' 
+  end
   # GET /clients/new
   def new
     @client = Client.new

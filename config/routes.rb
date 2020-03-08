@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   
-  resources :clients, path: "customers", except: [:destroy]
+  resources :clients, path: "customers"
+
+  delete 'clients/delete-all', to: "clients#delete_all", as: "supprime-tout"
 
 	#TODO
   # resources :glaces
